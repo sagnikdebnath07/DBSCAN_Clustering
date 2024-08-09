@@ -1,5 +1,5 @@
 # DBSCAN_Clustering
-DBSCAN stands for Density-Based Spatial Clustering Of Applications With Noise. This algorithm creates clusters based on the density of points int the neighborhood of a given point.
+DBSCAN stands for Density-Based Spatial Clustering Of Applications With Noise. This algorithm creates clusters based on the density of points in the neighborhood of a given point.
 <br>
 <br>
 This algorithm takes two hyperparameters, epsilon(eps) and minPts(min points). 
