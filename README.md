@@ -17,4 +17,5 @@ This algorithm classifies a point into 3 types: core point, border point and noi
 <br>
 <h5>Noise</h5>- A point which is neither a core point nor a border point is called noise.
 <br>
-![Point](https://github.com/user-attachments/assets/775177ce-5166-4c13-915a-105e69b4dd52)
+<br>
+<img src="Point.png">
