@@ -16,5 +16,6 @@ This algorithm classifies a point into 3 types: core point, border point and noi
 <h5>Border point</h5>- A point which is not a core point but is neighbor of a core point is a border point.
 <br>
 <h5>Noise</h5>- A point which is neither a core point nor a border point is called noise.
-<br>Point.png
+<br>
+https://github.com/sagnikdebnath07/DBSCAN_Clustering/issues/1#issue-2458388690
 
