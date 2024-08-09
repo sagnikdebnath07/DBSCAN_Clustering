@@ -15,5 +15,7 @@ This algorithm classifies a point into 3 types: core point, border point and noi
 <br>
 <h5>Border point</h5>- A point which is not a core point but is neighbor of a core point is a border point.
 <br>
-<h5>Noise</h5>- A point which is neither a core point nor a border point is called noise.![Point](https://github.com/user-attachments/assets/6a76cbcd-99d2-45e6-8099-9f23e15d52da)
+<h5>Noise</h5>- A point which is neither a core point nor a border point is called noise.
+<br>
+![Point](https://github.com/user-attachments/assets/6a76cbcd-99d2-45e6-8099-9f23e15d52da)
 
