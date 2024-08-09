@@ -3,7 +3,14 @@ DBSCAN stands for Density-Based Spatial Clustering Of Applications With Noise. T
 <br>
 This algorithm takes two hyperparameters, epsilon(eps) and minPts(min points). 
 <br>
-<h6>Epsilon (eps)</h6> - It is the radius of the hypersphere neighborhood around a point. All points inside this radius neighbors.
+<h5>Epsilon (eps)</h5>- It is the radius of the hypersphere neighborhood around a point. All points inside this radius neighbors.
 <br>
-<h6>Min Points (minPts)</h6> - It is the minimum number of neighbor points to be inside the hypersphere for the other point to be considered a core point.
+<h5>Min Points (minPts)</h5>- It is the minimum number of neighbor points to be inside the hypersphere for the other point to be considered a core point.
 <br>
+This algorithm classifies a point into 3 types: core point, border point and noise. 
+<br>
+<h5>Core point</h5>- A point, which has neighbor points >= minPts inside its hypershere is called a core point.
+<br>
+<h5>Border point</h5>- A point which is not a core point but is neighbor of a core point is a border point.
+<br>
+<h5>Noise</h5>- A point which is neither a core point nor a border point is called noise.
