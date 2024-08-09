@@ -19,3 +19,12 @@ This algorithm classifies a point into 3 types: core point, border point and noi
 <br>
 <br>
 <img src="Point.png">
+<br>
+<br>
+One more concept we need to be familiar with before progressing to the code is Density Connected points.
+<br>
+<br>
+<b>Density Connected Points</b>- If a point A is a neighbor of B (under fixed eps and minPts), B is a neighbor of C then we say that A is also a neighbor of C. In this way we chain points and assign them to the same cluster label. This chaining is applied in the growclusters function of our code.
+<br>
+<br>
+Links referred to for getting a good grasp of DBSCAN : https://www.analyticsvidhya.com/blog/2020/09/how-dbscan-clustering-works/   https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/
